@@ -5,35 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-
+    body {
+        background-color: aquamarine;
+    }
+    .box {
+        height: 150px;
+        width: 800px;
+        background-color: aquamarine;
+        margin: auto;
+    }
+    .a {
+        height: 190px;
+        width: 190px;
+    }
+    .b {
+        height: 150px;
+        width: 190px;
+    }
+    .c {
+        height: 150px;
+        width: 190px;
+    }
+    .d {
+        height: 190px;
+        width: 190px;
+    }
     table {
         align-content: center;
-        background-color: paleturquoise;
-        width: 250px;
-        height: 150px;
+        background-color: aquamarine;
+        width: 800px;
+        height: 250px;
+        margin: auto;
     }
   </style>
 </head>
 <body>
     <table border="1">
-        <div>
-            <div>
-                <button>
-                    <p>Makanan</p>
-                </button>
-                <tr>
-                    <th>No</th>
-                    <th>Nama</th>
-                    <th>Harga</th>
-                    <th>Gambar</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>Bawang</th>
-                    <th>10</th>
-                    <th>Bawang</th>
-                </tr>
-            </div>
+        <div class="box">
+            <h1>Main Menu</h1>
+            <button class="M">
+                <p>Makanan</p>
+            </button>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Harga</th>
+                <th>Gambar</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Ikan Bakar</th>
+                <th>Rp.30.000</th>
+                <th><img class="a" src="resep-gurame-bakar-bumbu-kecap-cabe_43.jpeg"></th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Ayam Bakar</th>
+                <th>Rp.30.000</th>
+                <th><img class="b" src="Resep-Ayam-Goreng-Laos-Gurih-dan-Meresap.jpg"></th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Gorengan</th>
+                <th>Rp.10.000</th>
+                <th><img class="c" src="ilustrasi-gorengan-dan-cabai-rawit.jpeg"></th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>Es Teh</th>
+                <th>Gorengan</th>
+                <th><img class="d" src="Ketahui-Fakta-Es-Teh-Manis.jpg"></th>
+            </tr>
         </div>
     </table>
 </body>
